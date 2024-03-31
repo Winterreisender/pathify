@@ -1,0 +1,19 @@
+[project]
+name = "pathify"
+version = "0.1.0"
+description = "Pathify a file"
+authors = [
+    {name = "errei", email = ""},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
